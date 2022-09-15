@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_pYcXkC7REe2e28cLOtj2Gw" name="calculator">
+    <eAnnotations xmi:id="_pcoUAC7REe2e28cLOtj2Gw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_pcoUAS7REe2e28cLOtj2Gw" source="codegen">
+        <details xmi:id="_pcoUAi7REe2e28cLOtj2Gw" key="codegenDirectory" value="/calculator/src"/>
+        <details xmi:id="_p60E0S7REe2e28cLOtj2Gw" key="AssociatedSourceCode" value="/calculator/src/com/kozdemir/calculator/Calculator.java;602498921/1;/calculator/src/com/kozdemir/calculator/CalculatorT1.java;2426023822/1;/calculator/src/com/kozdemir/calculator/CosFunction.java;41030283/1;/calculator/src/com/kozdemir/calculator/LogFunction.java;490350564/1;/calculator/src/com/kozdemir/calculator/MathFunction.java;983199994/1;/calculator/src/com/kozdemir/calculator/SinFunction.java;839267644/1;/calculator/src/com/kozdemir/calculator/SquaredFunction.java;3814107608/1;/calculator/src/com/kozdemir/calculator/AbstractMathFunction.java;4266668706/1;/calculator/src/com/kozdemir/calculator/Test.java;4083607996/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ph3ZUC7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZUS7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZUi7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZUy7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZVC7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZVS7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZVi7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZVy7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ph3ZWC7REe2e28cLOtj2Gw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_phtoUC7REe2e28cLOtj2Gw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_phtoUS7REe2e28cLOtj2Gw" name="kozdemir">
+        <packagedElement xmi:type="uml:Package" xmi:id="_phuPYC7REe2e28cLOtj2Gw" name="calculator">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_ph2yQC7REe2e28cLOtj2Gw" name="Calculator">
+            <ownedOperation xmi:id="_ph4AYC7REe2e28cLOtj2Gw" name="listMathFunction"/>
+            <ownedOperation xmi:id="_ph4AYS7REe2e28cLOtj2Gw" name="doCalculation">
+              <ownedParameter xmi:id="_ph4AYi7REe2e28cLOtj2Gw" name="functionName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ph4AYy7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ph4AZC7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_PW4KwC7fEe2e28cLOtj2Gw" name="addFunction">
+              <ownedParameter xmi:id="_PW4KwS7fEe2e28cLOtj2Gw" name="function" type="_piBxYC7REe2e28cLOtj2Gw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ph4ncC7REe2e28cLOtj2Gw" name="CalculatorT1">
+            <ownedAttribute xmi:id="_pig5kC7REe2e28cLOtj2Gw" name="functionCount" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_pig5ki7REe2e28cLOtj2Gw" name="currentCount" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_pihgoC7REe2e28cLOtj2Gw" value="0"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_pihgoi7REe2e28cLOtj2Gw" name="functions" visibility="private" type="_piBxYC7REe2e28cLOtj2Gw" association="_pioOUC7REe2e28cLOtj2Gw">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WEG3wC7fEe2e28cLOtj2Gw" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pihgoy7REe2e28cLOtj2Gw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_piiHsS7REe2e28cLOtj2Gw" name="argument" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_yndp4C7nEe2e28cLOtj2Gw" name="calName" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_pibaAS7REe2e28cLOtj2Gw" client="_ph4ncC7REe2e28cLOtj2Gw" supplier="_ph2yQC7REe2e28cLOtj2Gw" contract="_ph2yQC7REe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pilLAy7REe2e28cLOtj2Gw" name="addFunction" specification="_picBEC7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pilLBC7REe2e28cLOtj2Gw" name="function" type="_piBxYC7REe2e28cLOtj2Gw"/>
+              <language>java</language>
+              <body>functions[currentCount] = function;&#xD;
+		currentCount++;&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pilLBS7REe2e28cLOtj2Gw" name="listMathFunction" specification="_ph51kS7REe2e28cLOtj2Gw">
+              <language>java</language>
+              <body>System.out.println(&quot;Avaible functions of &quot;+ calName +&quot;:&quot;);&#xD;
+		for (MathFunction function : functions) {&#xD;
+			System.out.print(function.getName()); &#xD;
+			System.out.print(&quot; &quot;);&#xD;
+		}&#xD;
+		System.out.println();&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pilyEC7REe2e28cLOtj2Gw" name="doCalculation" specification="_ph6coi7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pilyES7REe2e28cLOtj2Gw" name="functionName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pilyEi7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pilyEy7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>double result = 0.0;&#xD;
+		boolean isFunctionFound = false;&#xD;
+		for (MathFunction function : functions) {&#xD;
+			if (functionName.equalsIgnoreCase(function.getName())) {&#xD;
+				result = function.calculate(arg);&#xD;
+				isFunctionFound = true;&#xD;
+				System.out.println(functionName + &quot; of &quot; + arg + &quot; is &quot; + result + &quot;\n&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		if (!isFunctionFound) {&#xD;
+			&#xD;
+			System.out.println(&quot;No such function found!&quot;);&#xD;
+			System.out.println();&#xD;
+			System.out.println();&#xD;
+		}&#xD;
+&#xD;
+		return result;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yneQ8S7nEe2e28cLOtj2Gw" name="CalculatorT1" specification="_yndC0C7nEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_yneQ8i7nEe2e28cLOtj2Gw" name="functionCount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_yneQ8y7nEe2e28cLOtj2Gw" name="calName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_yneQ9C7nEe2e28cLOtj2Gw" type="_ph4ncC7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.calName=calName;&#xD;
+		this.functionCount = functionCount;&#xD;
+		functions = new MathFunction[functionCount];&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ph51kS7REe2e28cLOtj2Gw" name="listMathFunction" method="_pilLBS7REe2e28cLOtj2Gw"/>
+            <ownedOperation xmi:id="_ph6coi7REe2e28cLOtj2Gw" name="doCalculation" method="_pilyEC7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_ph6coy7REe2e28cLOtj2Gw" name="functionName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ph6cpC7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ph6cpS7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_picBEC7REe2e28cLOtj2Gw" name="addFunction" method="_pilLAy7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_picBES7REe2e28cLOtj2Gw" name="function" type="_piBxYC7REe2e28cLOtj2Gw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_yndC0C7nEe2e28cLOtj2Gw" name="CalculatorT1" method="_yneQ8S7nEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_yndC1C7nEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_yndC1S7nEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_yndC0S7nEe2e28cLOtj2Gw" name="functionCount">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_yndC0i7nEe2e28cLOtj2Gw" name="calName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_yndC0y7nEe2e28cLOtj2Gw" type="_ph4ncC7REe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ph9f8C7REe2e28cLOtj2Gw" name="CosFunction">
+            <generalization xmi:id="_Aes88y7cEe2e28cLOtj2Gw" general="_AHpH0C7cEe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pilyGy7REe2e28cLOtj2Gw" name="calculate" specification="_ph-uEC7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pilyHC7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pilyHS7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Math.cos(arg);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AetkAC7cEe2e28cLOtj2Gw" name="CosFunction" specification="_AesV4C7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_AetkAS7cEe2e28cLOtj2Gw" type="_ph9f8C7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>super(&quot;cos&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ph-uEC7REe2e28cLOtj2Gw" name="calculate" method="_pilyGy7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_ph-uES7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ph-uEi7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AesV4C7cEe2e28cLOtj2Gw" name="CosFunction" method="_AetkAC7cEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_Aes88S7cEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Aes88i7cEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_Aes88C7cEe2e28cLOtj2Gw" type="_ph9f8C7REe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ph_VIi7REe2e28cLOtj2Gw" name="LogFunction">
+            <generalization xmi:id="_BE2W9C7cEe2e28cLOtj2Gw" general="_AHpH0C7cEe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pimZIi7REe2e28cLOtj2Gw" name="calculate" specification="_piAjQy7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pimZIy7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pimZJC7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Math.log(arg);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BE2-AC7cEe2e28cLOtj2Gw" name="LogFunction" specification="_BE2W8C7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_BE2-AS7cEe2e28cLOtj2Gw" type="_ph_VIi7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>super(&quot;Log&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_piAjQy7REe2e28cLOtj2Gw" name="calculate" method="_pimZIi7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_piAjRC7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_piBKUC7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_BE2W8C7cEe2e28cLOtj2Gw" name="LogFunction" method="_BE2-AC7cEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_BE2W8i7cEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_BE2W8y7cEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_BE2W8S7cEe2e28cLOtj2Gw" type="_ph_VIi7REe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_piBxYC7REe2e28cLOtj2Gw" name="MathFunction">
+            <ownedAttribute xmi:id="_bI5OAC7kEe2e28cLOtj2Gw" name="name" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_piCYcS7REe2e28cLOtj2Gw" name="calculate">
+              <ownedParameter xmi:id="_piCYci7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_piCYcy7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_piC_gC7REe2e28cLOtj2Gw" name="SinFunction">
+            <generalization xmi:id="_BmuU9C7cEe2e28cLOtj2Gw" general="_AHpH0C7cEe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pimZJy7REe2e28cLOtj2Gw" name="calculate" specification="_piENoC7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pimZKC7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pimZKS7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Math.sin(arg);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Bmu8AC7cEe2e28cLOtj2Gw" name="SinFunction" specification="_BmuU8C7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_Bmu8AS7cEe2e28cLOtj2Gw" type="_piC_gC7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>//name = &quot;sin&quot;;&#xD;
+		super(&quot;sin&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_piENoC7REe2e28cLOtj2Gw" name="calculate" method="_pimZJy7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_piENoS7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_piENoi7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_BmuU8C7cEe2e28cLOtj2Gw" name="SinFunction" method="_Bmu8AC7cEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_BmuU8i7cEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_BmuU8y7cEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_BmuU8S7cEe2e28cLOtj2Gw" type="_piC_gC7REe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_piE0si7REe2e28cLOtj2Gw" name="SquaredFunction">
+            <generalization xmi:id="_AHqV8C7cEe2e28cLOtj2Gw" general="_AHpH0C7cEe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pinAMi7REe2e28cLOtj2Gw" name="calculate" specification="_piGp4S7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_pinAMy7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_pinANC7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return Math.sqrt(arg);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AHqV8S7cEe2e28cLOtj2Gw" name="SquaredFunction" specification="_AHjoQC7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_AHqV8i7cEe2e28cLOtj2Gw" type="_piE0si7REe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>super(&quot;Squared&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_piGp4S7REe2e28cLOtj2Gw" name="calculate" method="_pinAMi7REe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_piGp4i7REe2e28cLOtj2Gw" name="arg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_piGp4y7REe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_AHjoQC7cEe2e28cLOtj2Gw" name="SquaredFunction" method="_AHqV8S7cEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_AHjoQi7cEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_AHjoQy7cEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_AHjoQS7cEe2e28cLOtj2Gw" type="_piE0si7REe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_pioOUC7REe2e28cLOtj2Gw" name="" memberEnd="_pioOUS7REe2e28cLOtj2Gw _pihgoi7REe2e28cLOtj2Gw">
+            <ownedEnd xmi:id="_pioOUS7REe2e28cLOtj2Gw" name="" type="_ph4ncC7REe2e28cLOtj2Gw" association="_pioOUC7REe2e28cLOtj2Gw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_AHpH0C7cEe2e28cLOtj2Gw" name="AbstractMathFunction" isAbstract="true">
+            <ownedAttribute xmi:id="_EjoyAC7cEe2e28cLOtj2Gw" name="name" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_Ejnj4C7cEe2e28cLOtj2Gw" client="_AHpH0C7cEe2e28cLOtj2Gw" supplier="_piBxYC7REe2e28cLOtj2Gw" contract="_piBxYC7REe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EjpZES7cEe2e28cLOtj2Gw" name="getName" specification="_EjiEUC7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_EjpZEi7cEe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return name;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_95C3ZC7dEe2e28cLOtj2Gw" name="AbstractMathFunction" specification="_95CQUC7dEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_95C3ZS7dEe2e28cLOtj2Gw" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_95C3Zi7dEe2e28cLOtj2Gw" type="_AHpH0C7cEe2e28cLOtj2Gw" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>this.name = name;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_EjiEUC7cEe2e28cLOtj2Gw" name="getName" visibility="public" method="_EjpZES7cEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_EjirYC7cEe2e28cLOtj2Gw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_95CQUC7dEe2e28cLOtj2Gw" name="AbstractMathFunction" method="_95C3ZC7dEe2e28cLOtj2Gw">
+              <eAnnotations xmi:id="_95C3Yi7dEe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_95C3Yy7dEe2e28cLOtj2Gw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_95C3YC7dEe2e28cLOtj2Gw" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_95C3YS7dEe2e28cLOtj2Gw" type="_AHpH0C7cEe2e28cLOtj2Gw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_F30LIC7mEe2e28cLOtj2Gw" name="Test">
+            <ownedAttribute xmi:id="_F31ZQC7mEe2e28cLOtj2Gw" name="in" isStatic="true" type="_pidPMC7REe2e28cLOtj2Gw" association="_F32AVi7mEe2e28cLOtj2Gw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_F32AUS7mEe2e28cLOtj2Gw" name="main" specification="_F30yMC7mEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_F32AUi7mEe2e28cLOtj2Gw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F32AUy7mEe2e28cLOtj2Gw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>in = new Scanner(System.in);&#xD;
+//		&#xD;
+//		CalculatorT1 calculator1 = new CalculatorT1(2, &quot;Cal T1&quot;);&#xD;
+//		calculator1.addFunction(new SinFunction());&#xD;
+//		calculator1.addFunction(new CosFunction());&#xD;
+		&#xD;
+//		calculator1.listMathFunction();&#xD;
+		&#xD;
+//		System.out.println();&#xD;
+//		&#xD;
+		CalculatorT1 calculator2 = new CalculatorT1(4, &quot;Cal Fklax&quot;);&#xD;
+		calculator2.addFunction(new SinFunction());&#xD;
+		calculator2.addFunction(new CosFunction());&#xD;
+		calculator2.addFunction(new LogFunction());&#xD;
+////	calculator2.addFunction(new FactorialFunction());&#xD;
+		calculator2.addFunction(new SquaredFunction());&#xD;
+//	&#xD;
+//	calculator2.listMathFunction();&#xD;
+		&#xD;
+		startCalculator(calculator2);&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_F32AVC7mEe2e28cLOtj2Gw" name="startCalculator" specification="_F30yMy7mEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_F32AVS7mEe2e28cLOtj2Gw" name="calculator" type="_ph2yQC7REe2e28cLOtj2Gw"/>
+              <language>java</language>
+              <body>calculator.listMathFunction();&#xD;
+				&#xD;
+		System.out.print(&quot;Please enter the name of the function:&quot;);&#xD;
+		String functionName = in.next(); &#xD;
+		if(functionName.equalsIgnoreCase(&quot;end&quot;))&#xD;
+			System.exit(0);&#xD;
+		System.out.print(&quot;Please enter the argument of the function:&quot;);&#xD;
+		double functionArg = in.nextDouble(); &#xD;
+		double result = calculator.doCalculation(functionName, functionArg);&#xD;
+		&#xD;
+		System.out.println(functionName + &quot; of &quot; + functionArg + &quot; is &quot; + result + &quot;\n&quot;);&#xD;
+		&#xD;
+		startCalculator(calculator);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_F30yMC7mEe2e28cLOtj2Gw" name="main" isStatic="true" method="_F32AUS7mEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_F30yMS7mEe2e28cLOtj2Gw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F30yMi7mEe2e28cLOtj2Gw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_F30yMy7mEe2e28cLOtj2Gw" name="startCalculator" visibility="private" isStatic="true" method="_F32AVC7mEe2e28cLOtj2Gw">
+              <ownedParameter xmi:id="_F30yNC7mEe2e28cLOtj2Gw" name="calculator" type="_ph2yQC7REe2e28cLOtj2Gw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_F32AVi7mEe2e28cLOtj2Gw" name="" memberEnd="_F32AVy7mEe2e28cLOtj2Gw _F31ZQC7mEe2e28cLOtj2Gw">
+            <ownedEnd xmi:id="_F32AVy7mEe2e28cLOtj2Gw" name="" type="_F30LIC7mEe2e28cLOtj2Gw" association="_F32AVi7mEe2e28cLOtj2Gw"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_phu2cC7REe2e28cLOtj2Gw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_phu2cS7REe2e28cLOtj2Gw" name="lang">
+        <packagedElement xmi:type="uml:Package" xmi:id="_phu2ci7REe2e28cLOtj2Gw" name="invoke">
+          <packagedElement xmi:type="uml:Package" xmi:id="_phu2cy7REe2e28cLOtj2Gw" name="MethodHandles">
+            <packagedElement xmi:type="uml:Package" xmi:id="_phu2dC7REe2e28cLOtj2Gw" name="Lookup">
+              <packagedElement xmi:type="uml:Enumeration" xmi:id="_piay8i7REe2e28cLOtj2Gw" name="ClassOption"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_phwEkC7REe2e28cLOtj2Gw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pidPMC7REe2e28cLOtj2Gw" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_pco7EC7REe2e28cLOtj2Gw">
+      <eAnnotations xmi:id="_pco7ES7REe2e28cLOtj2Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_pco7Ei7REe2e28cLOtj2Gw" base_Package="_pYcXkC7REe2e28cLOtj2Gw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ph51ki7REe2e28cLOtj2Gw" base_Element="_ph51kS7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_ph6coC7REe2e28cLOtj2Gw" base_Element="_ph51kS7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_ph6coS7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ph7DsC7REe2e28cLOtj2Gw" base_Element="_ph6coi7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_ph7DsS7REe2e28cLOtj2Gw" base_Element="_ph6coi7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_ph7Dsi7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ph-uEy7REe2e28cLOtj2Gw" base_Element="_ph-uEC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_ph_VIC7REe2e28cLOtj2Gw" base_Element="_ph-uEC7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_ph_VIS7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_piBKUS7REe2e28cLOtj2Gw" base_Element="_piAjQy7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_piBKUi7REe2e28cLOtj2Gw" base_Element="_piAjQy7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_piBKUy7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_piENoy7REe2e28cLOtj2Gw" base_Element="_piENoC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_piE0sC7REe2e28cLOtj2Gw" base_Element="_piENoC7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_piE0sS7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_piGp5C7REe2e28cLOtj2Gw" base_Element="_piGp4S7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_piHQ8C7REe2e28cLOtj2Gw" base_Element="_piGp4S7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_piHQ8S7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_pibaAC7REe2e28cLOtj2Gw" base_Element="_piay8i7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_picoIC7REe2e28cLOtj2Gw" base_Element="_picBEC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_picoIS7REe2e28cLOtj2Gw" base_Element="_picBEC7REe2e28cLOtj2Gw">
+    <annotations xmi:id="_picoIi7REe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_pidPMS7REe2e28cLOtj2Gw" base_Element="_pidPMC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pig5kS7REe2e28cLOtj2Gw" base_Element="_pig5kC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pihgoS7REe2e28cLOtj2Gw" base_Element="_pig5ki7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Array xmi:id="_pihgpC7REe2e28cLOtj2Gw" dimensions="0" base_Element="_pihgoi7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_piiHsC7REe2e28cLOtj2Gw" base_Element="_pihgoi7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_piiHsi7REe2e28cLOtj2Gw" base_Element="_piiHsS7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Reference xmi:id="_pio1YC7REe2e28cLOtj2Gw" base_Element="_pioOUC7REe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Annotations xmi:id="_EjjScC7cEe2e28cLOtj2Gw" base_Element="_EjiEUC7cEe2e28cLOtj2Gw">
+    <annotations xmi:id="_EjjScS7cEe2e28cLOtj2Gw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EjpZEC7cEe2e28cLOtj2Gw" base_Element="_EjoyAC7cEe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_F32AUC7mEe2e28cLOtj2Gw" base_Element="_F31ZQC7mEe2e28cLOtj2Gw"/>
+  <UMLLabProfile:Reference xmi:id="_F32nYC7mEe2e28cLOtj2Gw" base_Element="_F32AVi7mEe2e28cLOtj2Gw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yneQ8C7nEe2e28cLOtj2Gw" base_Element="_yndp4C7nEe2e28cLOtj2Gw"/>
+</xmi:XMI>

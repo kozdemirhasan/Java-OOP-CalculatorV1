@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_pZJiMC7REe2e28cLOtj2Gw">
+  <modelElement href="calculator.uml#_phuPYC7REe2e28cLOtj2Gw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_quY20C7REe2e28cLOtj2Gw" sourceAnchor="227.0,0.0" targetAnchor="229.0,131.0" dashed="true" superClass="_quLbcC7REe2e28cLOtj2Gw" subClass="_qupVgC7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_pibaAS7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_sM6DQC7REe2e28cLOtj2Gw" position="1112.0,96.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_quin0C7REe2e28cLOtj2Gw" sourceAnchor="0.0,33.0" targetAnchor="241.0,113.0" target="_qwzRoC7REe2e28cLOtj2Gw" source="_qupVgC7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_pioOUC7REe2e28cLOtj2Gw"/>
+    <bendpoints xmi:id="_T94jYC7lEe2e28cLOtj2Gw" sourceX="-393" targetY="71"/>
+    <stereotypes xmi:id="_quoHYy7REe2e28cLOtj2Gw" name="Reference">
+      <modelElement href="calculator.uml#_pio1YC7REe2e28cLOtj2Gw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_quoHYC7REe2e28cLOtj2Gw" text="">
+      <visualProperties xmi:id="_rCpPkC7REe2e28cLOtj2Gw" position="1.0,-62.99999999999983"/>
+    </nameVisual>
+    <sourceRole xmi:id="_quoHYS7REe2e28cLOtj2Gw" aggregationKind="NONE" name="">
+      <modelElement href="calculator.uml#_pioOUS7REe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="_rCoohS7REe2e28cLOtj2Gw" position="-41.0,-57.0"/>
+      <visibility xmi:id="_quoucS7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_quoucC7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_quoHYi7REe2e28cLOtj2Gw" aggregationKind="NONE" name="functions" navigable="true">
+      <modelElement href="calculator.uml#_pihgoi7REe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="_rCpPkS7REe2e28cLOtj2Gw" position="158.0,14.000000000000085"/>
+      <stereotypes xmi:id="_AUGPcC7cEe2e28cLOtj2Gw" name="Array">
+        <modelElement href="calculator.uml#_pihgpC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_AUGPcS7cEe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_piiHsC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_quoucy7REe2e28cLOtj2Gw" label="-"/>
+      <cardinality xmi:id="_quouci7REe2e28cLOtj2Gw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EkwMUC7cEe2e28cLOtj2Gw" sourceAnchor="214.0,0.0" targetAnchor="211.0,113.0" dashed="true" superClass="_qwzRoC7REe2e28cLOtj2Gw" subClass="_EkyBgC7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_Ejnj4C7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_PVT1wC7lEe2e28cLOtj2Gw" position="492.0,311.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EkwMUS7cEe2e28cLOtj2Gw" sourceAnchor="154.0,0.0" targetAnchor="218.0,116.0" superClass="_EkyBgC7cEe2e28cLOtj2Gw" subClass="_qzuCwC7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_AHqV8C7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_PLEUoC7lEe2e28cLOtj2Gw" position="526.0,311.0"/>
+    <bendpoints xmi:id="_T95KcC7lEe2e28cLOtj2Gw" sourceY="-39" targetX="634" targetY="78"/>
+    <bendpoints xmi:id="_T95KcS7lEe2e28cLOtj2Gw" sourceX="-634" sourceY="-39" targetY="78"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EkwMUi7cEe2e28cLOtj2Gw" sourceAnchor="150.0,0.0" targetAnchor="218.0,116.0" superClass="_EkyBgC7cEe2e28cLOtj2Gw" subClass="_qvwv0C7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_Aes88y7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_PLEUoS7lEe2e28cLOtj2Gw" position="526.0,311.0"/>
+    <bendpoints xmi:id="_T95Kci7lEe2e28cLOtj2Gw" sourceY="-30" targetX="-346" targetY="78"/>
+    <bendpoints xmi:id="_T95Kcy7lEe2e28cLOtj2Gw" sourceX="346" sourceY="-30" targetY="78"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EkwMUy7cEe2e28cLOtj2Gw" sourceAnchor="150.0,0.0" targetAnchor="218.0,116.0" superClass="_EkyBgC7cEe2e28cLOtj2Gw" subClass="_qwa3IC7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_BE2W9C7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_PLEUoi7lEe2e28cLOtj2Gw" position="526.0,311.0"/>
+    <bendpoints xmi:id="_T95xgC7lEe2e28cLOtj2Gw" sourceY="-33" targetX="295" targetY="78"/>
+    <bendpoints xmi:id="_T95xgS7lEe2e28cLOtj2Gw" sourceX="-295" sourceY="-33" targetY="78"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EkwMVC7cEe2e28cLOtj2Gw" sourceAnchor="144.0,0.0" targetAnchor="218.0,116.0" superClass="_EkyBgC7cEe2e28cLOtj2Gw" subClass="_qyLxsC7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_BmuU9C7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_PLE7sC7lEe2e28cLOtj2Gw" position="526.0,311.0"/>
+    <bendpoints xmi:id="_T95xgi7lEe2e28cLOtj2Gw" sourceY="-35" targetX="-30" targetY="78"/>
+    <bendpoints xmi:id="_T95xgy7lEe2e28cLOtj2Gw" sourceX="30" sourceY="-35" targetY="78"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qupVgC7REe2e28cLOtj2Gw" name="CalculatorT1" associationsOut="_quin0C7REe2e28cLOtj2Gw" generalizations="_quY20C7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_ph4ncC7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qupVgS7REe2e28cLOtj2Gw" position="897.0,205.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qupVgi7REe2e28cLOtj2Gw" label="+"/>
+    <attributes xmi:id="_qupVgy7REe2e28cLOtj2Gw" name="functionCount">
+      <modelElement href="calculator.uml#_pig5kC7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupVhC7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_pig5kS7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVhS7REe2e28cLOtj2Gw" label="-"/>
+      <cardinality xmi:id="_qupVhi7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_qupVhy7REe2e28cLOtj2Gw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qupViC7REe2e28cLOtj2Gw" defaultValue="0" name="currentCount">
+      <modelElement href="calculator.uml#_pig5ki7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupViS7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_pihgoS7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVii7REe2e28cLOtj2Gw" label="-"/>
+      <cardinality xmi:id="_qupViy7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_qupVjC7REe2e28cLOtj2Gw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qupVjS7REe2e28cLOtj2Gw" name="functions">
+      <modelElement href="calculator.uml#_pihgoi7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_AUM9IC7cEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_AUM9IS7cEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_AUNkMC7cEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_AUOLQC7cEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_AUQAcC7cEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_AUQngC7cEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_kfNr4C7eEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_kfNr4S7eEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_kfOS8C7eEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_kfOS8S7eEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_kfQIIC7eEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_kfQvMC7eEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WEIF4C7fEe2e28cLOtj2Gw" name="Array"/>
+      <stereotypes xmi:id="_WEIs8C7fEe2e28cLOtj2Gw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_mWhQgDG3Ee2PtubloB2lwA" name="Array"/>
+      <stereotypes xmi:id="_mWjswDG3Ee2PtubloB2lwA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_mWlh8DG3Ee2PtubloB2lwA" name="Array"/>
+      <stereotypes xmi:id="_mWmJADG3Ee2PtubloB2lwA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_mWn-MDG3Ee2PtubloB2lwA" name="Array"/>
+      <stereotypes xmi:id="_mWolQDG3Ee2PtubloB2lwA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qupVkC7REe2e28cLOtj2Gw" label="-"/>
+      <cardinality xmi:id="_qupVkS7REe2e28cLOtj2Gw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_qupVki7REe2e28cLOtj2Gw" name="MathFunction">
+        <modelElement href="calculator.uml#_piBxYC7REe2e28cLOtj2Gw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qupVky7REe2e28cLOtj2Gw" name="argument">
+      <modelElement href="calculator.uml#_piiHsS7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupVlC7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_piiHsi7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVlS7REe2e28cLOtj2Gw" label="-"/>
+      <cardinality xmi:id="_qupVli7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_qupVly7REe2e28cLOtj2Gw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mWJdEDG3Ee2PtubloB2lwA" name="calName">
+      <modelElement href="calculator.uml#_yndp4C7nEe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_mWeNMjG3Ee2PtubloB2lwA" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_yneQ8C7nEe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_mWeNMTG3Ee2PtubloB2lwA" label="-"/>
+      <cardinality xmi:id="_mWe0QDG3Ee2PtubloB2lwA" label="1" max="1" min="1"/>
+      <type xmi:id="_mWeNMDG3Ee2PtubloB2lwA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qupVoS7REe2e28cLOtj2Gw" name="listMathFunction">
+      <modelElement href="calculator.uml#_ph51kS7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupVoi7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_ph51ki7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qupVoy7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_ph6coC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVpC7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qupVpS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qupVpi7REe2e28cLOtj2Gw" name="doCalculation">
+      <modelElement href="calculator.uml#_ph6coi7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupVpy7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_ph7DsC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qupVqC7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_ph7DsS7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVqS7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qupVqi7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qupVqy7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_ph6cpS7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qupVrC7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qupVrS7REe2e28cLOtj2Gw" name="functionName">
+        <modelElement href="calculator.uml#_ph6coy7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qupVri7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qupVry7REe2e28cLOtj2Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qupVsC7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_ph6cpC7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qupVsS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qupVsi7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qupVsy7REe2e28cLOtj2Gw" name="addFunction">
+      <modelElement href="calculator.uml#_picBEC7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qupVtC7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_picoIC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qupVtS7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_picoIS7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qupVti7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qupVty7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qupVuC7REe2e28cLOtj2Gw" name="function">
+        <modelElement href="calculator.uml#_picBES7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qupVuS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qupVui7REe2e28cLOtj2Gw" name="MathFunction">
+          <modelElement href="calculator.uml#_piBxYC7REe2e28cLOtj2Gw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mWI2ADG3Ee2PtubloB2lwA" name="CalculatorT1">
+      <modelElement href="calculator.uml#_yndC0C7nEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_mWdmIjG3Ee2PtubloB2lwA" keyword="create"/>
+      <visibility xmi:id="_mWdmITG3Ee2PtubloB2lwA" label="+"/>
+      <cardinality xmi:id="_mWdmIDG3Ee2PtubloB2lwA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mWc_EjG3Ee2PtubloB2lwA">
+        <modelElement href="calculator.uml#_yndC0y7nEe2e28cLOtj2Gw"/>
+        <type xmi:id="_mWc_EzG3Ee2PtubloB2lwA" name="CalculatorT1">
+          <modelElement href="calculator.uml#_ph4ncC7REe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mWcYADG3Ee2PtubloB2lwA" name="functionCount">
+        <modelElement href="calculator.uml#_yndC0S7nEe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_mWgCYDG3Ee2PtubloB2lwA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWcYATG3Ee2PtubloB2lwA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mWc_EDG3Ee2PtubloB2lwA" name="calName">
+        <modelElement href="calculator.uml#_yndC0i7nEe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_mWgpcDG3Ee2PtubloB2lwA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWc_ETG3Ee2PtubloB2lwA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_quLbcC7REe2e28cLOtj2Gw" name="Calculator" subclassedBy="_quY20C7REe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_ph2yQC7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_quLbcS7REe2e28cLOtj2Gw" position="895.0,38.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_quLbci7REe2e28cLOtj2Gw" label="+"/>
+    <operations xmi:id="_quLbcy7REe2e28cLOtj2Gw" name="listMathFunction">
+      <modelElement href="calculator.uml#_ph4AYC7REe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="_-D-GQC7jEe2e28cLOtj2Gw"/>
+      <visibility xmi:id="_quLbdC7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_quLbdS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_quLbdi7REe2e28cLOtj2Gw" name="doCalculation">
+      <modelElement href="calculator.uml#_ph4AYS7REe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="_-D-tUC7jEe2e28cLOtj2Gw"/>
+      <visibility xmi:id="_quLbdy7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_quLbeC7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_quLbeS7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_ph4AZC7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_quLbei7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_quLbey7REe2e28cLOtj2Gw" name="functionName">
+        <modelElement href="calculator.uml#_ph4AYi7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_quLbfC7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_quLbfS7REe2e28cLOtj2Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_quLbfi7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_ph4AYy7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_quLbfy7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_quLbgC7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PW4x0C7fEe2e28cLOtj2Gw" name="addFunction">
+      <modelElement href="calculator.uml#_PW4KwC7fEe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="_-D-tUS7jEe2e28cLOtj2Gw"/>
+      <visibility xmi:id="_PW4x0S7fEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_PW4x0i7fEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PW4x0y7fEe2e28cLOtj2Gw" name="function">
+        <modelElement href="calculator.uml#_PW4KwS7fEe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_PW4x1C7fEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_PW4x1S7fEe2e28cLOtj2Gw" name="MathFunction">
+          <modelElement href="calculator.uml#_piBxYC7REe2e28cLOtj2Gw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qzuCwC7REe2e28cLOtj2Gw" name="SquaredFunction" generalizations="_EkwMUS7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_piE0si7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qzuCwS7REe2e28cLOtj2Gw" position="958.0,486.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qzuCwi7REe2e28cLOtj2Gw" label="+"/>
+    <operations xmi:id="_qzuCzy7REe2e28cLOtj2Gw" name="calculate">
+      <modelElement href="calculator.uml#_piGp4S7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qzuC0C7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_piGp5C7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qzuC0S7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_piHQ8C7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qzuC0i7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qzuC0y7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qzuC1C7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_piGp4y7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qzuC1S7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qzuC1i7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_piGp4i7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qzuC1y7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qzuC2C7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AUJ50C7cEe2e28cLOtj2Gw" name="SquaredFunction">
+      <modelElement href="calculator.uml#_AHjoQC7cEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_AUMWFC7cEe2e28cLOtj2Gw" keyword="create"/>
+      <visibility xmi:id="_AUMWEy7cEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_AUMWEi7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AUMWEC7cEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_AHjoQS7cEe2e28cLOtj2Gw"/>
+        <type xmi:id="_AUMWES7cEe2e28cLOtj2Gw" name="SquaredFunction">
+          <modelElement href="calculator.uml#_piE0si7REe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qvwv0C7REe2e28cLOtj2Gw" name="CosFunction" generalizations="_EkwMUi7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_ph9f8C7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qvwv0S7REe2e28cLOtj2Gw" position="-18.0,477.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qvwv0y7REe2e28cLOtj2Gw" label="+"/>
+    <operations xmi:id="_qvwv4C7REe2e28cLOtj2Gw" name="calculate">
+      <modelElement href="calculator.uml#_ph-uEC7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qvwv4S7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_ph-uEy7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qvwv4i7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_ph_VIC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qvwv4y7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qvwv5C7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qvwv5S7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_ph-uEi7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qvwv5i7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qvwv5y7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_ph-uES7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qvwv6C7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qvwv6S7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Amr0QC7cEe2e28cLOtj2Gw" name="CosFunction">
+      <modelElement href="calculator.uml#_AesV4C7cEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_Amr0QS7cEe2e28cLOtj2Gw" keyword="create"/>
+      <visibility xmi:id="_Amr0Qi7cEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_Amr0Qy7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Amr0RC7cEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_Aes88C7cEe2e28cLOtj2Gw"/>
+        <type xmi:id="_Amr0RS7cEe2e28cLOtj2Gw" name="CosFunction">
+          <modelElement href="calculator.uml#_ph9f8C7REe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qwa3IC7REe2e28cLOtj2Gw" name="LogFunction" generalizations="_EkwMUy7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_ph_VIi7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qwa3IS7REe2e28cLOtj2Gw" position="623.0,480.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qwa3Ii7REe2e28cLOtj2Gw" label="+"/>
+    <operations xmi:id="_qwa3Ly7REe2e28cLOtj2Gw" name="calculate">
+      <modelElement href="calculator.uml#_piAjQy7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qwa3MC7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_piBKUS7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qwa3MS7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_piBKUi7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qwa3Mi7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qwa3My7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qwa3NC7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_piBKUC7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qwa3NS7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qwa3Ni7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_piAjRC7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qwa3Ny7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qwa3OC7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BL-SoC7cEe2e28cLOtj2Gw" name="LogFunction">
+      <modelElement href="calculator.uml#_BE2W8C7cEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_BL-SoS7cEe2e28cLOtj2Gw" keyword="create"/>
+      <visibility xmi:id="_BL-Soi7cEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_BL-Soy7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BL-SpC7cEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_BE2W8S7cEe2e28cLOtj2Gw"/>
+        <type xmi:id="_BL-SpS7cEe2e28cLOtj2Gw" name="LogFunction">
+          <modelElement href="calculator.uml#_ph_VIi7REe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qyLxsC7REe2e28cLOtj2Gw" name="SinFunction" generalizations="_EkwMVC7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_piC_gC7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qyLxsS7REe2e28cLOtj2Gw" position="304.0,482.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qyLxsi7REe2e28cLOtj2Gw" label="+"/>
+    <operations xmi:id="_qyLxvy7REe2e28cLOtj2Gw" name="calculate">
+      <modelElement href="calculator.uml#_piENoC7REe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_qyLxwC7REe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_piENoy7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qyLxwS7REe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_piE0sC7REe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_qyLxwi7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qyLxwy7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qyLxxC7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_piENoi7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qyLxxS7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qyLxxi7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_piENoS7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qyLxxy7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qyLxyC7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_BtV6UC7cEe2e28cLOtj2Gw" name="SinFunction">
+      <modelElement href="calculator.uml#_BmuU8C7cEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_BtV6US7cEe2e28cLOtj2Gw" keyword="create"/>
+      <visibility xmi:id="_BtV6Ui7cEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_BtV6Uy7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BtV6VC7cEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_BmuU8S7cEe2e28cLOtj2Gw"/>
+        <type xmi:id="_BtV6VS7cEe2e28cLOtj2Gw" name="SinFunction">
+          <modelElement href="calculator.uml#_piC_gC7REe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_qwzRoC7REe2e28cLOtj2Gw" name="MathFunction" associationsIn="_quin0C7REe2e28cLOtj2Gw" subclassedBy="_EkwMUC7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_piBxYC7REe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_qwzRoS7REe2e28cLOtj2Gw" position="263.0,54.0" size="422.0,113.0"/>
+    <visibility xmi:id="_qwzRoi7REe2e28cLOtj2Gw" label="+"/>
+    <attributes xmi:id="_bJec0C7kEe2e28cLOtj2Gw" name="name">
+      <modelElement href="calculator.uml#_bI5OAC7kEe2e28cLOtj2Gw"/>
+      <visibility xmi:id="_bJec0S7kEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_bJec0i7kEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_bJec0y7kEe2e28cLOtj2Gw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qwzRpy7REe2e28cLOtj2Gw" name="calculate">
+      <modelElement href="calculator.uml#_piCYcS7REe2e28cLOtj2Gw"/>
+      <visualProperties xmi:id="__em4QC7jEe2e28cLOtj2Gw"/>
+      <visibility xmi:id="_qwzRqC7REe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_qwzRqS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qwzRqi7REe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_piCYcy7REe2e28cLOtj2Gw"/>
+        <type xmi:id="_qwzRqy7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qwzRrC7REe2e28cLOtj2Gw" name="arg">
+        <modelElement href="calculator.uml#_piCYci7REe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_qwzRrS7REe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_qwzRri7REe2e28cLOtj2Gw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EkyBgC7cEe2e28cLOtj2Gw" name="AbstractMathFunction" abstractClass="true" generalizations="_EkwMUC7cEe2e28cLOtj2Gw" subclassedBy="_EkwMUS7cEe2e28cLOtj2Gw _EkwMUi7cEe2e28cLOtj2Gw _EkwMUy7cEe2e28cLOtj2Gw _EkwMVC7cEe2e28cLOtj2Gw">
+    <modelElement href="calculator.uml#_AHpH0C7cEe2e28cLOtj2Gw"/>
+    <visualProperties xmi:id="_EkyBgS7cEe2e28cLOtj2Gw" position="260.0,253.0" size="437.0,116.0"/>
+    <visibility xmi:id="_EkyBgi7cEe2e28cLOtj2Gw" label="+"/>
+    <attributes xmi:id="_EkyBgy7cEe2e28cLOtj2Gw" name="name">
+      <modelElement href="calculator.uml#_EjoyAC7cEe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_EkyBhC7cEe2e28cLOtj2Gw" name="LegacyStyledElement">
+        <modelElement href="calculator.uml#_EjpZEC7cEe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_EkyBhS7cEe2e28cLOtj2Gw" label="#"/>
+      <cardinality xmi:id="_EkyBhi7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_EkyBhy7cEe2e28cLOtj2Gw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EkyBiC7cEe2e28cLOtj2Gw" name="getName">
+      <modelElement href="calculator.uml#_EjiEUC7cEe2e28cLOtj2Gw"/>
+      <stereotypes xmi:id="_EkyBii7cEe2e28cLOtj2Gw" name="Annotations">
+        <modelElement href="calculator.uml#_EjjScC7cEe2e28cLOtj2Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_EkyBiy7cEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_EkyBjC7cEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EkyBjS7cEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_EjirYC7cEe2e28cLOtj2Gw"/>
+        <type xmi:id="_EkyBji7cEe2e28cLOtj2Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kfIzYC7eEe2e28cLOtj2Gw" name="AbstractMathFunction">
+      <modelElement href="calculator.uml#_95CQUC7dEe2e28cLOtj2Gw"/>
+      <keywords xmi:id="_kfMdxi7eEe2e28cLOtj2Gw" keyword="create"/>
+      <visibility xmi:id="_kfMdxS7eEe2e28cLOtj2Gw" label="+"/>
+      <cardinality xmi:id="_kfMdxC7eEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kfMdwi7eEe2e28cLOtj2Gw">
+        <modelElement href="calculator.uml#_95C3YS7dEe2e28cLOtj2Gw"/>
+        <type xmi:id="_kfMdwy7eEe2e28cLOtj2Gw" name="AbstractMathFunction">
+          <modelElement href="calculator.uml#_AHpH0C7cEe2e28cLOtj2Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kfMdwC7eEe2e28cLOtj2Gw" name="name">
+        <modelElement href="calculator.uml#_95C3YC7dEe2e28cLOtj2Gw"/>
+        <cardinality xmi:id="_kfNE1C7eEe2e28cLOtj2Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_kfMdwS7eEe2e28cLOtj2Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
