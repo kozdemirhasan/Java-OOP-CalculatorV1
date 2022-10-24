@@ -1,4 +1,4 @@
-package com.kozdemir.calculator;
+package com.kozdemir.calculator_V1;
 
 public interface Calculator {
 	

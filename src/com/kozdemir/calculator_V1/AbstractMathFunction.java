@@ -1,4 +1,4 @@
-package com.kozdemir.calculator;
+package com.kozdemir.calculator_V1;
 
 public abstract class AbstractMathFunction implements MathFunction {
 
@@ -8,7 +8,7 @@ public abstract class AbstractMathFunction implements MathFunction {
 		this.name = name;
 	}
 
-	public String getName() {
+	public final String getName() {
 		return name;
 	}
 
